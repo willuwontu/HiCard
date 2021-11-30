@@ -1,5 +1,4 @@
-﻿using BepInEx;
-
+using BepInEx;
 using UnboundLib;
 using UnboundLib.Cards;
 using HiCard.Cards;
@@ -34,7 +33,7 @@ namespace HiCard
         void Start()
         {
             instance = this;
-            CustomCard.BuildCard<CalculatedShot>();
+            CustomCard.BuildCard<MiniGun>();
         }
     }
 }
