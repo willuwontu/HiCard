@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using ModdingUtils.MonoBehaviours;
+using UnityEngine;
 
 namespace Hicard.MonoBehaviors
 {
